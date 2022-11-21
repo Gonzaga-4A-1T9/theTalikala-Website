@@ -1,0 +1,110 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: Garamond, serif;
+	color: rgb(0, 0, 0);
+	background-color: #ba9968;
+	scroll-behavior: smooth;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	width: 1170px;
+	margin: auto;
+}
+
+header{
+	background-image: url("librarybg.jpg");
+	height: 100%; 
+	
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	height:100vh;
+	-webkit-background-size: cover;
+	background-position: center center;
+	position: relative;
+	width: 100%;
+}
+
+ul{
+	list-style-type: none;
+ 	margin: 0;
+	padding: 0;
+}
+
+.nav-area{
+	list-style: none;
+}
+
+.nav-area li{
+	float:right;
+	display: inline;
+	margin-top: 20px;
+	text-decoration:none;
+    background-color:#5C3317;
+    border-width:4px;
+    border-style:double;
+    border-color:#3a1f0c;
+	border-radius: 25px;
+	padding: 5px 1px;
+    margin-left:10px;
+}
+
+.nav-area li a{
+	color: #ba9968;
+	text-decoration: none;
+	padding: 5px 40px;
+	font-family: "Trirong", serif;
+	font-size: 20px;
+	border-radius: 25px;
+}
+
+.nav-area li a:hover{
+	background: #ba9968;
+	color: #7d4329;
+}
+
+#scrolling{
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 500px
+}
+
+.content{
+	float: left;
+	position: absolute;
+	width: 60%;
+	margin-left: 100px;
+	margin-top: 30px;
+	text-align: left;
+	padding: 0%;
+}
+
+.welcome-text{
+	color: #ba9968;
+	position: absolute;
+	width: 700px;
+	height: 300px;
+	margin-left: 140px;
+	text-align: center;
+	margin-left: 300px;
+	margin-top:150px
+}
+
+img {
+	width: 400px;
+	margin-top: 10px;
+	padding: 1x 1px;
+}
+
+
+
+
+
+	 
